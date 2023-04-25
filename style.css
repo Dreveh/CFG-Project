@@ -1,0 +1,38 @@
+
+.navbar {
+    background-color: #fdd7cc;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.img-lightning {
+    height: 50px;
+    width: auto;
+    margin-left: 15%;
+}
+
+.navbar-btn {
+    align-items: right;
+    
+}
+
+div.header {
+    background-image: url("https://images.unsplash.com/photo-1596181819480-95672cdd8c0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fdd7cc;
+    height: 100%;
+}
+
+.flexContainerA {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+}
+
+.section {
+    background-color: #fdd7cc;
+    height: auto;
+    background-size: cover;
+}
