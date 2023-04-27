@@ -1,3 +1,133 @@
+@media  only screen and (min-width: 320px) {
+    .main, .about, .book, {
+        width: 100%;
+    }
+}
+@media  only screen and (min-width: 768px) {
+    .main, .about, .book, {
+        width: 100%;
+    }
+}
+@media  only screen and (min-width: 980px) {
+    .main, .about, .book, {
+        width: 100%;
+    }
+}
+h2{
+    text-align: left;
+    font-weight: bold;
+    color: white;
+}
+
+body {
+    background: #fdd7cc;
+}
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.cart {
+    margin: 20px 0;
+    background-color: #F6F5FA;
+    padding: 60px 0;
+    width: 100%;
+    display: inline;
+    text-align: center;
+    align-items: center;
+}
+.cart-quantity .cart-row {
+    margin: 20px 0;
+    background-color: #F6F5FA;
+    padding: 60px 0;
+    font-weight: bold;
+    font-size: medium;
+}
+.total-price {
+    padding-bottom: 15px;
+    width: 100px;
+}
+.cart-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.center-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.cart-item h5 {
+    padding: 0 45px;
+    width: 100%;
+}
+.cart-item .remove-item {
+    width: 25px;
+}
+.btn-default {
+    background-color: #fff;
+}
+.cart-quantity-input {
+    width: 75px;
+}
+.cart-item .form-control {
+    background-color: #F6F5FA;
+    border: none;
+    width: 65px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.cart-quantity .cart-row {
+    width: 100%;
+}
+.input-group {
+    width: unset;
+    flex-wrap: nowrap;
+}
+.btn-default {
+    width: fit-content;
+}
+.button {
+    width: 200px;
+}
+.btn {
+    color: white;
+    font-weight: bold;
+
+}
+.cart-item-button {
+    color: white;
+    font-weight: bold;
+}
+..cart-item-button:hover {
+    color: darkslategrey;
+}
+.btn-primary {
+
+
+}
+.btn-danger {
+
+}
+.status {
+    text-align: right;
+}
+.check-out {
+    align-items: center;
+    float: right;
+    padding: 10px 30px;
+    font-size: 19;
+    background-color: mediumturquoise;
+    border: none;
+}
+
 
 .navbar {
     background-color: #fdd7cc;
