@@ -7,20 +7,23 @@
     <title>Payment</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-    <img  class="logo" src="images/CFG logo for project 5 lightning symbol.png" alt="Festival Logo">
-<div class="container">
+    <div class="topnav">
+        <a class="navbar-brand" href="index.html">
+            <img class="img-lightning" src="C:\Users\rvc\OneDrive - Royal Veterinary College\Desktop\CFG-Project\CFG logo for project 5 lightning symbol2.png">
+        </a>
+        <div class="topnav-right">
+            <a href="index.html" button class="btn navbar-btn">Home</a></li>
+            <a href="book.html" button class="btn navbar-btn">Book a ticket</a></li>
+        </div>
+    </div> 
 
+    <div class="container" style="margin-top: 10%">
     <form action="">
-
         <div class="row">
-
             <div class="col">
-
                 <h3 class="title">billing address</h3>
-
                 <div class="inputBox">
                     <span>full name</span>
                     <input type="text" placeholder="Name">
@@ -37,7 +40,6 @@
                     <span>city</span>
                     <input type="text" placeholder="London">
                 </div>
-
                 <div class="flex">
                     <div class="inputBox">
                         <span>Country</span>
@@ -48,16 +50,12 @@
                         <input type="text" placeholder="123 456">
                     </div>
                 </div>
-
             </div>
-
             <div class="col">
-
                 <h3 class="title">payment</h3>
-
                 <div class="inputBox">
                     <span>cards accepted</span>
-                    <img src="images/card_img.png" alt="">
+                    <img src="C:\Users\rvc\OneDrive - Royal Veterinary College\Desktop\CFG-Project\card_img.png" alt="">
                 </div>
                 <div class="inputBox">
                     <span>name on card </span>
@@ -71,7 +69,6 @@
                     <span>exp month</span>
                     <input type="text" placeholder="January">
                 </div>
-
                 <div class="flex">
                     <div class="inputBox">
                         <span>exp year</span>
@@ -82,21 +79,11 @@
                         <input type="text" placeholder="123">
                     </div>
                 </div>
-
             </div>
-    
         </div>
-
-        
         <button type="submit" class="book-btn" onclick="myFunction()">Book Tickets</a></button>
-
     </form>
-
-</div>    
-
-
+</div>
 <script src="script.js"></script>
-
-    
 </body>
 </html>
